@@ -1,0 +1,14 @@
+Feature,Data Type,Dataset,Description
+author,object,"df_fin.csv, df_econ.csv",The original poster of the reddit post
+date created (epoch time),int64,"df_fin.csv, df_econ.csv",The date of the original post
+post_id,object,"df_fin.csv, df_econ.csv",The unique Id of the post
+body,object,"df_fin.csv, df_econ.csv",The initial title of the post
+upvote score,int64,"df_fin.csv, df_econ.csv",The amount of upvotes by other users; The relevance of the post
+number of comments,int64,"df_fin.csv, df_econ.csv",The number of comments in a post
+subreddit,object,"df_fin.csv, df_econ.csv",The subreddit the post belongs to
+length,int64,"df_fin.csv, df_econ.csv",The length of the characters in the title of the post
+word_count,int64,"df_fin.csv, df_econ.csv",The word-count of the title
+tokenized_words,object,"df_fin.csv, df_econ.csv",Words tokenized to remove whitespace
+lemmatized_tokenized_words,object,"df_fin.csv, df_econ.csv",Words lemmatized to root of word (Based on analysis)
+stemmatized_tokenized_words,object,"df_fin.csv, df_econ.csv",Stemmatized Words (Rudimentary chopping of words to root)
+post_reddit_finance,int64,"df_fin.csv, df_econ.csv",One-Hot encoded variable showing whether a post is from Reddit Finance; used as our target variable

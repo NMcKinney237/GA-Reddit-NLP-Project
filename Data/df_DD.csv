@@ -1,0 +1,5 @@
+0,1,2,3,4,5,6,7,8,9,10,11
+author,date created (epoch time),post_id,body,upvote score,number of comments,subreddit,length,word_count,tokenized_words,lemmatized_tokenized_words,stemmatized_tokenized_words
+object,int64,object,object,int64,int64,object,int64,int64,object,object,object
+"df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv","df_fin.csv, df_econ.csv"
+1,1,1,1,1,1,1,1,1,1,1,1
